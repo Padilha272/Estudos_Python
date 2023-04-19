@@ -12,7 +12,10 @@ else:
     if(' ' in nome):{
     print('O seu nome contém espaços')
     }
-    print(f'O seu nome contém' ,len(nome),' letras')
+    else:{
+    print('O seu nome não contém espaços')
+    }
+    print(f'O seu nome contém {len(nome)} letras')
     print(f'A primeira letra do seu nome é {nome[0]}')
     print(f'A ultima letra do seu nome é {nome[-1]}')
 

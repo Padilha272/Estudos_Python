@@ -7,6 +7,7 @@ nome = 'Otávio'
 #print('vio' not in nome)
 #print('zero' not in nome)
 
+print(20*'-')
 nome = input('Digite o seu nome:')
 encontrar = input('Digite o que você quer encontrar: ')
 

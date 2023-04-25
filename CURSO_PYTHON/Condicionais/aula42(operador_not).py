@@ -7,3 +7,9 @@ senha = input('Senha: ')
 if  not senha :{
     print('Voce não digitou nada')
 }
+
+'''
+print(not true) #False
+print(not false) #True
+
+'''

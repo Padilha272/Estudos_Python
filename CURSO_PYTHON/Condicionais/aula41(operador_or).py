@@ -1,3 +1,4 @@
+
 entrada = input('[E]ntrar [S]air: ')
 senha_digitada = input('Senha: ')
 
@@ -9,3 +10,10 @@ if((entrada=='E' or entrada=='e') and (senha_digitada == senha_permitida)):{
 else: {
     print('Sair')
 }
+
+'''
+#Avaliação de curto circúito
+
+senha =  input('Senha: ') or 'sem senha'
+print(senha)
+'''

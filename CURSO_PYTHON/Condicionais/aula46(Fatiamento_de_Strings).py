@@ -8,5 +8,7 @@ obs.: a função len retorna a qtd de caracteres da strs
 '''
 
 variavel = 'Olá mundo'
+print(variavel[0:])
 print(variavel[::-1])
 print(len(variavel))
+print(variavel[0:len(variavel):2])
